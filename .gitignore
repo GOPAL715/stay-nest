@@ -1,0 +1,42 @@
+# ===== Environment & Secrets =====
+.env
+*.env.local
+
+# ===== Java / Maven =====
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ===== IDE =====
+.idea/
+*.iml
+*.iws
+.vscode/settings.json
+.classpath
+.project
+.settings/
+
+# ===== Node / Frontend =====
+node_modules/
+dist/
+.next/
+*.local
+apps/customer/dist/
+apps/admin/dist/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Docker =====
+.docker/
+
+# ===== Logs =====
+logs/
+*.log

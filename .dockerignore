@@ -1,0 +1,36 @@
+# Git
+.git
+.gitignore
+
+# IDE
+.idea
+.vscode
+*.iml
+
+# Java build output
+**/target
+**/*.class
+**/*.jar
+
+# Node
+**/node_modules
+**/dist
+**/.next
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Logs & temp
+**/*.log
+**/*.tmp
+.DS_Store
+Thumbs.db
+
+# Documentation & spec tooling (not needed in API image)
+.specify
+.github
+
+# Frontend apps (API Dockerfile builds services/api only)
+apps
