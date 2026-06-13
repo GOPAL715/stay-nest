@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                            https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.20.xsd">
+
+    <include file="migrations/V001__create_users.sql"              relativeToChangelogFile="true"/>
+    <include file="migrations/V002__create_properties.sql"         relativeToChangelogFile="true"/>
+    <include file="migrations/V003__create_amenities.sql"          relativeToChangelogFile="true"/>
+    <include file="migrations/V004__create_bookings.sql"           relativeToChangelogFile="true"/>
+    <include file="migrations/V005__create_reviews.sql"            relativeToChangelogFile="true"/>
+    <include file="migrations/V006__create_messages.sql"           relativeToChangelogFile="true"/>
+    <include file="migrations/V007__create_notifications.sql"      relativeToChangelogFile="true"/>
+    <include file="migrations/V008__create_payments.sql"           relativeToChangelogFile="true"/>
+    <include file="migrations/V009__create_platform_config.sql"    relativeToChangelogFile="true"/>
+    <include file="migrations/V010__create_host_applications.sql"  relativeToChangelogFile="true"/>
+    <include file="migrations/V011__create_audit_logs.sql"         relativeToChangelogFile="true"/>
+    <include file="migrations/V012__seed_data.sql"                 relativeToChangelogFile="true"/>
+
+</databaseChangeLog>
